@@ -24,10 +24,8 @@
 
 ```bash
 
-git clone \[https://github.com/你的用户名/你的仓库名.git](https://github.com/你的用户名/你的仓库名.git)
-
-cd 你的仓库名
-
+git clone [https://github.com/c2451134117-cyber/rag-tech-assistant.git](https://github.com/c2451134117-cyber/rag-tech-assistant.git)
+cd rag-tech-assistant
 
 
 \# 创建并激活虚拟环境

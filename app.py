@@ -19,11 +19,11 @@ def main():
     # 检索相关度最高的 4 个段落
     retriever = vector_store.as_retriever(search_kwargs={"k": 4})
 
-    # 2. 配置 DeepSeek LLM
+ # 2. 配置 DeepSeek LLM
     llm = ChatOpenAI(
         model="deepseek-chat",
-        api_key=os.getenv("sk-0cb600ce5ffe43bda9548bfb931a7ccc"),
-        base_url=os.getenv("https://api.deepseek.com"),
+        api_key=os.getenv("DEEPSEEK_API_KEY"),
+        base_url=os.getenv("DEEPSEEK_BASE_URL"),
         temperature=0.2
     )
 
