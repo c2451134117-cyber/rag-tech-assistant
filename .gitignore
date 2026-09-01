@@ -1,0 +1,14 @@
+# 敏感环境变量（包含你的 API Key）
+.env
+
+# Python 虚拟环境
+venv/
+__pycache__/
+*.pyc
+
+# 本地生成的向量数据库（体积大且属于个人本地数据）
+chroma_db/
+
+# 本地缓存与临时文件
+.cache/
+*.pdf
